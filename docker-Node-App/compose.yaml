@@ -18,5 +18,8 @@ services:
           ME_CONFIG_MONGODB_ADMINPASSWORD: qwerty
           ME_CONFIG_MONGODB_URL: mongodb://admin:qwerty@mongo:27017/
 
+          # to run this compose file use the command:
+          # docker-compose -f compose.yaml up -d
+
 
 
