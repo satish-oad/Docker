@@ -5,8 +5,9 @@ ENV MONGO_DB_USERNAME=admin \
 RUN mkdir -p /nodeapp
 
 COPY . /nodeapp
+EXPOSE 5050
 
-CMD ["node", "/nodeapp/index.js"]
+CMD ["node", "/nodeapp/server.js"]
 
 
 # to build the docker image
